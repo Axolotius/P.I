@@ -1,0 +1,290 @@
+/* Home Page Inicio CSS */
+
+.homePage-body{
+    font-family:Arial,Helvetica, sans-serif;
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(46, 76, 141),rgb(44, 58, 184));
+}
+
+.titulo h1{
+    text-shadow: 1px 1px rgb(46, 76, 141);
+}
+
+.homePage-centro{
+    width: 50%;
+    height: 800px;
+    margin: auto;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.add-remedio{
+    width: auto;
+    height: auto;
+}
+
+.botao-add:hover{
+    background: whitesmoke;
+    
+    color: rgb(46, 76, 141);
+    
+    text-shadow:none;
+
+    border: 1px solid rgb(46, 76, 141);
+    
+    border-radius: 20px;
+    
+    transition: 0.5s;
+    }
+
+.add-remedio a{
+    font-family: 'Poppins';
+    background-color: rgb(46, 76, 141);
+    color: #ffffff;
+    padding: 8px 15px;
+    border: 2px rgb(46, 76, 141);
+    border-radius: 40px;
+    text-decoration: none;
+    
+}
+
+.homepage-img img{
+    width: 60%;
+    height: auto;
+}
+
+/* Home Page Final CSS */
+
+/* Cabeçalho Inicio CSS */
+
+.cabecalho{
+    margin: 0;
+}
+
+.cabecalhoo{
+    margin: auto;
+    border: 1.5px solid #fff;    
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    min-height: 90px;
+}
+
+.botao{
+    width: 24.89%;
+    height: auto;
+    overflow: hidden;
+    min-height: 60px;
+    float: left;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.botao a{
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.botao:hover{
+
+    background-image: linear-gradient(to left, rgb(28, 58, 122),rgb(96, 150, 231));
+    
+    text-shadow:none;
+    
+    transition: 0.5s;
+
+    font-size: 21px;
+}
+
+@media screen and (max-width: 650px) {
+    .cabecalhoo {
+        width: 100%;
+    }
+  }
+
+/* Cabeçalho Final CSS */
+
+/* sobre Inicio CSS */
+.sobre{
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    font-size: 20px;
+}
+/* Sobre Final CSS */
+
+/* Contato Inicio CSS */
+.contato{
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    font-size: 20px;
+}
+/* Contato Final CSS */
+
+/* Cadastro Inicio CSS */
+.body-cadastro{
+    font-family:Arial,Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(46, 76, 141),rgb(44, 58, 184));
+}
+
+.box{
+    color:#000;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color:#fff;
+    padding:15px;
+    border-radius:15px;
+    width:25%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+fieldset{
+    border:3px solid dodgerblue;
+}
+legend{
+    border:1px solid dodgerblue;
+    padding:10px;
+    text-align:center;
+    background-color:dodgerblue;
+    border-radius:5px;
+    
+}
+.inputUser{
+    border:none;
+    border-bottom:1px solid #000;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing:2px;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.06);
+}
+
+#submit{
+    background-image:linear-gradient(to right, rgb(0,92,197), rgb(90,20,220));
+    width:100%;
+    border: none;
+    padding:15px;
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+    border-radius:10px;
+}
+
+/* Cadastro Final CSS */
+
+/* Login Inicio CSS */
+
+.div-login{
+    background-color:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:80px;
+    border-radius:15px;
+    color:#000;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.input-login{
+    padding:15px;
+    border: 1px solid;
+    outline:none;
+    font-size:15px
+}
+#submit{
+    width:100%;
+    border: none;
+    padding:15px;
+    color:#000;
+    font-size:15px;
+    cursor:pointer;
+    border-radius:10px;
+}
+
+.inputsubmit{
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    font-family: 'Poppins';
+    background-color: rgb(46, 76, 141);
+    color: #ffffff;
+    padding: 8px 15px;
+    border: 2px rgb(46, 76, 141);
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.inputsubmit:hover{
+    background: whitesmoke;
+    
+    color: rgb(46, 76, 141);
+    
+    text-shadow:none;
+
+    border: 1px solid rgb(46, 76, 141);
+    
+    border-radius: 20px;
+    
+    transition: 0.5s;
+}
+/* Login Final CSS */
+
+/* Cadastro Remedio CSS */
+
+.body-remedio{
+    font-family:Arial,Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(46, 76, 141),rgb(44, 58, 184));
+}
+
+.box-remedio{
+    color:#000;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color:#fff;
+    padding:15px;
+    border-radius:15px;
+    width:25%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+fieldset{
+    border:3px solid dodgerblue;
+}
+legend{
+    border:1px solid dodgerblue;
+    padding:10px;
+    text-align:center;
+    background-color:dodgerblue;
+    border-radius:5px;
+    
+}
+.inputUser{
+    background:none;
+    border:none;
+    border-bottom:1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing:2px;
+}
+#submit{
+    background-image:linear-gradient(to right, rgb(0,92,197), rgb(90,20,220));
+    width:100%;
+    border: none;
+    padding:15px;
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+    border-radius:10px;
+}
+/* Cadastro Remedio CSS */
